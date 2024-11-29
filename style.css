@@ -62,10 +62,17 @@ html body{
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    padding-left: 25%;
+    overflow: hidden;
+}
+.welcome-page .image-box img{
+    flex-wrap: wrap;
+    max-width: 500px;
 }
 .welcome-page .text-box p, h1{
     /* Layout & positioning */
     margin: 0;
+    font-size: 50px;
+    padding-left: 25%;
 }
+
 
