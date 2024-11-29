@@ -7,10 +7,10 @@ html body{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: auto;
 
      /* Visuals */
-    background-color: orange;
+    background-color: black;
 
     /* Typography */
     font-family: "Inter", sans-serif;
@@ -45,6 +45,7 @@ html body{
 #navigation-bar a:hover {
     color: rgb(198, 198, 198);
 }
+
 .welcome-page{
     /* Layout & positioning */
     display: flex;
@@ -74,5 +75,46 @@ html body{
     font-size: 50px;
     padding-left: 25%;
 }
-
+.calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1064px;
+    height: 668px;
+    left: calc(50% - 1064px/2 - 14px);
+    top: 128px;
+    background: linear-gradient(108.13deg, rgba(217, 217, 217, 0.1) 7.95%, rgba(255, 255, 255, 0.4) 87.36%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 63px;
+}
+.big-eclipse{
+    border-radius: 100%;
+    position: absolute;
+    width: 1280px;
+    height: 1280px;
+    top: 100px;
+    z-index: -1;
+    background: linear-gradient(218.3deg, #F5E6C5 6.4%, #F56E1F 88.78%);
+}
+.medium-eclipse{
+    border-radius: 100%;
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    top: 3000px;
+    left: -500px;
+    z-index: -1;
+    background: linear-gradient(218.3deg, #F5E6C5 6.4%, #F56E1F 88.78%);
+}
+.small-eclipse{
+    border-radius: 100%;
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: 2000px;
+    left: 800px;
+    z-index: -1;
+    background: linear-gradient(218.3deg, #F5E6C5 6.4%, #F56E1F 88.78%);
+}
 
